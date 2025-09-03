@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デザインストラテジスト実践ガイドブック - Tetsuya Miyashita</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Shippori+Mincho:wght@500;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #F8F7F4;
+            color: #333;
+        }
+        h1, h2, h3, h4, .font-display {
+            font-family: 'Shippori Mincho', serif;
+        }
+        .accent-gold { color: #B8860B; }
+        .prose {
+            max-width: 80ch;
+        }
+        .prose h2 {
+            font-size: 2.25rem;
+            margin-top: 3em;
+            margin-bottom: 1.5em;
+            padding-bottom: 0.5em;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .prose h3 {
+            font-size: 1.875rem;
+            margin-top: 2.5em;
+            margin-bottom: 1em;
+            padding-left: 1rem;
+            border-left: 4px solid #B8860B;
+        }
+        .prose p, .prose li {
+            font-size: 1.125rem;
+            line-height: 1.85;
+        }
+        .prose strong {
+            font-weight: 700;
+            color: #1a202c;
+        }
+        .prose blockquote {
+            border-left-color: #B8860B;
+            color: #4a5568;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <header class="sticky top-0 bg-white/80 backdrop-blur-md shadow-sm z-10">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="design_strategist_portfolio_site.html" class="font-display text-lg font-bold text-gray-800">Tetsuya Miyashita</a>
+            <a href="design_strategist_portfolio_site.html#codex" class="text-sm text-gray-600 hover:accent-gold transition-colors flex items-center">
+                <i data-lucide="arrow-left" class="w-4 h-4 mr-1"></i>
+                知識体系へ戻る
+            </a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-16 md:py-24">
+        <article class="prose lg:prose-xl mx-auto">
+            <h1 class="font-display text-4xl md:text-5xl font-extrabold text-gray-800">デザインストラテジスト実践ガイドブック</h1>
+            <p class="lead text-xl text-gray-600">事業変革のエンジンを構築する</p>
+
+            <div class="mt-8 p-8 bg-white rounded-lg shadow-sm">
+                <h2 class="!mt-0 !border-none">本書の目的：なぜ今、デザイン戦略が経営の「エンジン」なのか？</h2>
+                <p>現代のビジネス環境は、複雑で予測不可能です。このような時代において、単に市場の方向性を示す「羅針盤」を持つだけでは、企業は変化の波を乗り越えることができません。今求められているのは、組織そのものが変化に適応し、持続的に価値を生み出し続けるための**「エンジン」**を内部に構築することです。</p>
+                <p>デザイン戦略とは、まさにこの事業変革のエンジンを設計し、組織に実装するための、極めて実践的なアプローチです。それは、企業の魂（ブランディング）を定義し、価値ある体験（サービスデザイン）を設計し、顧客との永続的な関係（デジタルマーケティング）を育むという、事業の根幹をなす活動全体を指します。</p>
+                <p>本書は、このエンジンを構築するための旅を、クライアントや事業担当者の皆様と共に歩むためのガイドブックです。</p>
+            </div>
+            
+            <h2 class="font-display">デザイン戦略実践の全体像：変革を導く12のステップ</h2>
+            <p>私たちが進めるデザイン戦略の旅は、大きく分けて**「診断」「設計」「競争」「実行」**という4つのフェーズからなる、計12のステップで構成されています。この全体像を把握することで、単なる対症療法ではない、根本的な事業変革のプロセスを理解することができます。</p>
+            
+            <div class="mt-12 space-y-16">
+                <div>
+                    <h3 class="font-display">Phase 1：構造の診断 — 問題の根本原因を突き止める</h3>
+                    <p>多くのビジネス課題は、表面的な症状への対症療法（モグラ叩き）では解決しません。このフェーズでは、問題の背後にある「システム構造」そのものを診断し、真の根本原因を突き止めるアプローチを探求します。</p>
+                    <ul class="mt-6 list-none space-y-6">
+                        <li><strong>Step 1: 因果関係の可視化</strong><p class="!mt-1">複雑な問題に関わる要素間の因果関係を線で結び、全体の構造を一枚の地図（因果ループ図）として可視化します。これにより、関係者間のメンタルモデルを共有し、対話の基盤を築きます。</p></li>
+                        <li><strong>Step 2: 問題パターンの特定</strong><p class="!mt-1">作成した地図の中から、組織が陥りがちな「典型的な失敗パターン（システム原型）」を発見し、問題の物語を診断します。例えば、「応急処置の罠」や「成長の限界」といったパターンを特定します。</p></li>
+                        <li><strong>Step 3: 最も効果的な介入点の発見</strong><p class="!mt-1">システム全体に最も大きな変化をもたらす、効果的な介入点（レバレッジ・ポイント）を特定します。私たちの戦略は、システムの「目的」や「パラダイム」といった高レバレッジな領域への介入を目指します。</p></li>
+                    </ol>
+                </div>
+                <div>
+                    <h3 class="font-display">Phase 2：未来の設計 — 持続的に価値を生む事業を構想する</h3>
+                    <p>根本原因が特定できたら、次はその課題を解決し、持続的な価値を生み出すための事業モデルを設計します。未来を完璧に予測することは不可能であるという前提に立ち、動的に戦略を進化させていくアプローチを取ります。</p>
+                     <ul class="mt-6 list-none space-y-6">
+                        <li><strong>Step 4: 顧客の真の目的の理解</strong><p class="!mt-1">ジョブ理論（JTBD）に基づき、顧客が製品やサービスを「なぜ」利用するのか、その根源的な動機（片付けたい用事＝ジョブ）を機能的・感情的・社会的次元から明らかにします。</p></li>
+                        <li><strong>Step 5: 戦略的地形の把握</strong><p class="!mt-1">ウォードリーマップを用いて、顧客ニーズから技術基盤までを一つの「価値連鎖」として描き出し、各要素の市場での成熟度を地図化します。これにより、無駄な投資を避け、競争優位を築くための客観的な判断を下します。</p></li>
+                        <li><strong>Step 6: 不確実性の中での行動計画</strong><p class="!mt-1">エフェクチュエーション理論に基づき、完璧な計画を待つのではなく、今あるリソース（Who I am, What I know, Whom I know）から行動を開始し、パートナーを巻き込みながら未来を共創します。</p></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-display">Phase 3：市場での勝利 — 競争優位を築き、防衛する</h3>
+                    <p>優れた事業モデルも、競合の模倣に晒されては持続的な価値を生みません。このフェーズでは、他社が容易に追随できない「堀（Moat）」を築き、市場での優位性を確立・防衛する方法を探ります。</p>
+                     <ul class="mt-6 list-none space-y-6">
+                        <li><strong>Step 7: エコシステムの構想</strong><p class="!mt-1">競争の舞台を、個々の企業が戦う「市場」から、多様な参加者が相互に価値を高め合う「エコシステム」へと転換します。プラットフォーム・デザインの考え方を取り入れ、価値交換を促進する場を設計します。</p></li>
+                        <li><strong>Step 8: ネットワーク効果の構築</strong><p class="!mt-1">ユーザーが増えるほどプラットフォームの価値が指数関数的に向上する「ネットワーク効果」を生み出し、競合が追いつけない状況を作り出します。同時に、顧客の「スイッチングコスト」をポジティブな価値を通じて高めます。</p></li>
+                        <li><strong>Step 9: 失敗からの学習</strong><p class="!mt-1">成功事例だけでなく、多くのプラットフォームが失敗した原因（例：不公正な価値分配、複雑すぎる価値提案）をシステム思考のレンズを通して分析し、自社の戦略に活かします。</p></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-display">Phase 4：変革の実行 — AIと人間心理で組織を動かす</h3>
+                     <p>どれほど優れた戦略も、実行されなければ意味がありません。このフェーズでは、AIという技術的触媒と、人間心理への深い洞察を組み合わせ、組織に変革をもたらすための具体的な手法を解説します。</p>
+                     <ul class="mt-6 list-none space-y-6">
+                        <li><strong>Step 10: AIによる能力拡張</strong><p class="!mt-1">デザイン戦略のあらゆるプロセスにAIを統合し、意思決定の速度と質を飛躍的に向上させます。AIを、人間の創造性を最大化するための「共同操縦士」として活用します。</p></li>
+                        <li><strong>Step 11: 人間中心の行動変容</strong><p class="!mt-1">行動経済学の知見に基づき、望ましい行動を自発的に選択したくなるような「仕掛け（ナッジ）」を設計します。これにより、組織の変化への心理的な抵抗を乗り越えます。</p></li>
+                        <li><strong>Step 12: 統合的価値の創造</strong><p class="!mt-1">これまでの全てのステップを、三位一体の柱（ブランディング、サービスデザイン、デジタルマーケティング）として統合し、企業の魂が事業の成果として結実するよう、戦略全体をオーケストレーションします。</p></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="mt-24 border-t border-gray-200">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
+            <p>&copy; 2025 Tetsuya Miyashita. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
